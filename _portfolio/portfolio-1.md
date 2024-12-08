@@ -1,7 +1,9 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "[Sub-Merged Conflicts](https://amongnight.itch.io/sub-merged-conflicts)"
+excerpt: "In this co-op deep-sea adventure game, you are part of a team of underwater explorers on a mission to find the treasure! Navigate through treacherous currents, encounter dangerous creatures, and use your teamwork skills to keep your submarine safe and strike gold! <br/><img src='/images/smc.png'>"
 collection: portfolio
 ---
+<!--
+In this co-op deep-sea adventure game, you are part of a team of underwater explorers on a mission to find the treasure! Navigate through treacherous currents, encounter dangerous creatures, and use your teamwork skills to keep your submarine safe and strike gold! <br/><img src='/images/smc.png'>
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+[Check it out!](https://amongnight.itch.io/sub-merged-conflicts)  -->
