@@ -21,7 +21,7 @@ repository               : "manishvenu/manishvenu.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "Profile1.jpg"
+  avatar           : "Profile2.jpg"
   name             : "Manish Venumuddula"
   pronouns         : "He/Him/His" # example: "she/her"  
   bio              : "Software Engineer | Climate Science"
