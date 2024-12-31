@@ -7,5 +7,5 @@ excerpt: "To differentiate and understand drivers behind coastal ice cover trend
 date: 2024-12-04
 venue: 'Earth and Space Science'
 paperurl: 'https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024EA003845'
-citation: "Venumuddula, M., Kirchner, K., Chen, A., Rood, R. B., & Gronewold, A. D. (2024). Combining satellite, teleconnection, and in situ data to improve understanding of multi-decadal coastal ice cover dynamics on Earth's largest freshwater lake. Earth and Space Science, 11, e2024EA003845. https://doi.org/10.1029/2024EA003845."
+# citation: "Venumuddula, M., Kirchner, K., Chen, A., Rood, R. B., & Gronewold, A. D. (2024). Combining satellite, teleconnection, and in situ data to improve understanding of multi-decadal coastal ice cover dynamics on Earth's largest freshwater lake. Earth and Space Science, 11, e2024EA003845. https://doi.org/10.1029/2024EA003845."
 ---
