@@ -31,7 +31,7 @@ Here are some of the projects I've worked on:
 
 ## Contact
 
-Feel free to reach out to me via [Email](mailto:manish.venumuddula@gmail.com), [LinkedIn](https://www.linkedin.com/in/manishvenu), or [GitHub](https://github.com/manishvenu).
+Feel free to reach out to me via [Email](mailto:manish.venumuddula@gmail.com), [LinkedIn](https://www.linkedin.com/in/manish-venumuddula), or [GitHub](https://github.com/manishvenu).
 
 Thank you for visiting my website!
 
