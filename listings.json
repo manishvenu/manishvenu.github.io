@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/index.html",
+    "items": [
+      "/blog/posts/2024-12-08-django-aws/index.html"
+    ]
+  },
+  {
     "listing": "/games/index.html",
     "items": [
       "/games/sub-merged-conflicts/index.html"
@@ -7,12 +13,6 @@
   },
   {
     "listing": "/blog/index.html",
-    "items": [
-      "/blog/posts/2024-12-08-django-aws/index.html"
-    ]
-  },
-  {
-    "listing": "/index.html",
     "items": [
       "/blog/posts/2024-12-08-django-aws/index.html"
     ]
