@@ -1,0 +1,12 @@
+---
+title: "Games"
+subtitle: "Things I've made in Unity. Click one to play or download."
+listing:
+  contents: "*/index.qmd"
+  type: grid
+  grid-columns: 2
+  image-height: 220px
+  sort: "title"
+  categories: true
+  fields: [image, title, description, categories]
+---

@@ -1,0 +1,14 @@
+---
+title: "Projects"
+subtitle: "Personal projects, research code, and software from work. Filter by tag on the right."
+listing:
+  contents: "*.qmd"
+  type: grid
+  grid-columns: 3
+  image-height: 180px
+  image-placeholder: ../images/placeholder.png
+  sort: "date desc"
+  categories: true
+  fields: [image, date, title, description, categories]
+  date-format: "YYYY"
+---

@@ -1,0 +1,51 @@
+# Site-wide settings. Pages, navbar, theme.
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - images/placeholder.png
+
+website:
+  title: "Manish Venumuddula"
+  site-url: https://manishvenu.github.io
+  description: "Games, side projects, and software for Earth system models."
+  favicon: images/favicon.png
+  search: true
+  open-graph: true
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: games/index.qmd
+        text: Games
+      - href: projects/index.qmd
+        text: Projects
+      - href: blog/index.qmd
+        text: Blog
+    right:
+      - icon: github
+        href: https://github.com/manishvenu
+        aria-label: GitHub
+      - icon: controller
+        href: https://amongnight.itch.io
+        aria-label: itch.io
+      - icon: linkedin
+        href: https://www.linkedin.com/in/manish-venumuddula
+        aria-label: LinkedIn
+      - icon: rss
+        href: blog/index.xml
+        aria-label: RSS
+  page-footer:
+    center: "Made with [Quarto](https://quarto.org) · [Résumé](/files/resume.pdf)"
+
+format:
+  html:
+    theme:
+      light: [flatly, styles/custom.scss]
+      dark: [darkly, styles/custom.scss]
+    toc: false
+
+# Notebook/Python posts are run once on your machine, and the results are saved
+# in _freeze/ (commit it). The GitHub build never has to run your code.
+execute:
+  freeze: auto

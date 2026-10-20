@@ -1,0 +1,19 @@
+/*-- scss:defaults --*/
+// Colours and fonts. Change these and the whole site follows.
+$primary: #0e7c86;   // ocean teal
+$font-family-sans-serif: "Inter", system-ui, sans-serif;
+$headings-font-family: "Space Grotesk", system-ui, sans-serif;
+$headings-font-weight: 700;
+
+/*-- scss:rules --*/
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@500;700&display=swap");
+
+// Cards on Games / Projects / Blog lift a little on hover.
+.quarto-grid-item.card {
+  transition: transform .15s ease, box-shadow .15s ease;
+  &:hover { transform: translateY(-4px); box-shadow: 0 10px 24px rgba(0, 0, 0, .15); }
+}
+.quarto-grid-item .card-img-top { object-fit: cover; }
+
+// Big "play" / "download" buttons on game pages.
+.btn-game { font-weight: 600; padding: .6rem 1.2rem; }

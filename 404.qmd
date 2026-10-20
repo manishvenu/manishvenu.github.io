@@ -1,0 +1,5 @@
+---
+title: "Page not found"
+---
+
+That page moved when this site was rebuilt (or never existed). Try the [home page](/), [projects](/projects/), or the [blog](/blog/).

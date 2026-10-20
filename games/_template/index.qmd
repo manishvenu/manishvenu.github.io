@@ -1,0 +1,20 @@
+---
+# COPY THIS FOLDER to add a game, e.g. games/my-new-game/
+# Folders starting with "_" are ignored, so this template never shows up on the site.
+title: "My New Game"
+description: "One sentence that shows up on the card."
+image: cover.png            # put a screenshot named cover.png in the folder
+categories: [Unity]
+---
+
+What's the game about? A paragraph or two.
+
+[Download on itch.io](https://amongnight.itch.io/){.btn .btn-primary .btn-game}
+
+<!--
+Playable in the browser? Put ONE of these on its own line, outside this comment,
+with two curly braces instead of three:
+
+  {{{< itch 1234567 >}}}            itch.io HTML5 game (number from itch's "Embed game" button)
+  {{{< unity play/index.html >}}}   Unity WebGL build copied into this folder as play/
+-->

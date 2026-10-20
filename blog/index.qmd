@@ -1,0 +1,12 @@
+---
+title: "Blog"
+subtitle: "Notes on things that broke and how I fixed them."
+listing:
+  # Posts written here live in posts/. Posts hosted elsewhere go in external-posts.yml.
+  contents: ["posts/*/index.qmd", "posts/*/index.ipynb", external-posts.yml]
+  sort: "date desc"
+  type: default
+  categories: true
+  image-placeholder: ../images/placeholder.png
+  feed: true
+---

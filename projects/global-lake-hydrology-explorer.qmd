@@ -1,0 +1,11 @@
+---
+title: "Global Lake Hydrology Explorer"
+description: "Pick any lake on Earth and get a snapshot of its water balance."
+date: 2023-04-25
+image: ../images/glhe.png
+categories: [Personal, Lakes, Python]
+---
+
+A tool for visualizing lake data worldwide using global precipitation, evaporation, and runoff data. Choose a lake and get a snapshot of its water balance. It's built to be easy to extend, for watershed modeling or water resource management.
+
+[GitHub](https://github.com/manishvenu/Global-Lake-Hydrology-Explorer){.btn .btn-primary}

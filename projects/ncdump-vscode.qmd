@@ -1,0 +1,10 @@
+---
+title: "manish's fantastic dump"
+description: "VS Code extension that runs ncdump -h on NetCDF files right in the editor."
+date: 2024-11-07
+categories: [Personal, Tools]
+---
+
+Click a `.nc` file in VS Code and see its header (`ncdump -h`) without opening a terminal.
+
+[GitHub](https://github.com/manishvenu/manishs-fantastic-dump){.btn .btn-primary}

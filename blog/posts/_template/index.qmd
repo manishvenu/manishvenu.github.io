@@ -1,0 +1,19 @@
+---
+# COPY THIS FOLDER to write a post, e.g. blog/posts/2026-11-01-my-post/
+# Folders starting with "_" are ignored, so this template never shows up.
+# You can also write a post as a Jupyter notebook: name it index.ipynb and put
+# the title/date/categories in a "Raw" cell at the top, formatted like this block.
+title: "My post title"
+description: "One sentence for the card on the blog page."
+date: 2026-11-01
+categories: [Python]
+image: thumbnail.png   # optional
+---
+
+Write in normal markdown. Python code runs when you preview the post, and the plot ends up in the post:
+
+```{python}
+import matplotlib.pyplot as plt
+plt.plot([1, 2, 3], [1, 4, 9])
+plt.show()
+```

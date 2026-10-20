@@ -1,0 +1,13 @@
+---
+title: "Mono Lake Water Balance"
+description: "How much of Mono Lake's water loss is diversions and how much is drought?"
+date: 2025-10-01
+image: ../images/mono-lake.jpg
+categories: [Research, Paper, Lakes]
+---
+
+A reconstruction of Mono Lake's water balance that separates human water diversions from climate-driven drought as causes of decades of lake-level decline.
+
+> Gossard, A., **Venumuddula, M.**, VanDeWeghe, A., Wegener, C., & Gronewold, A. D. (2025). Differentiating diversions and drought to understand drivers of water loss from a North American terminal lake. *Journal of Water Resources Planning and Management*.
+
+[Paper (JWRPM)](https://doi.org/10.1061/JWRMD5.WRENG-6782){.btn .btn-primary}

@@ -1,0 +1,12 @@
+---
+title: "visualCaseGen"
+description: "A GUI that uses constraint solvers to guide people through configuring CESM experiments."
+date: 2026-03-06
+categories: [Work, Software, Paper]
+---
+
+visualCaseGen gives CESM users an interactive, constraint-solver-assisted way to configure experiments. It encodes the model's configuration rules as SMT constraints, so invalid setups get caught before they run.
+
+> Altuntas, A., Simpson, I. R., Bachman, S. D., **Venumuddula, M.**, Levis, S., Dobbins, B., Sacks, W. J., & Danabasoglu, G. (2026). visualCaseGen: An SMT-based experiment configurator for Community Earth System Model. *Journal of Open Source Software*.
+
+[Paper (JOSS)](https://doi.org/10.21105/joss.09130){.btn .btn-primary} [GitHub](https://github.com/ESMCI/visualCaseGen){.btn .btn-outline-primary}

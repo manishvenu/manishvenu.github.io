@@ -1,0 +1,47 @@
+---
+title: "Hi, I'm Manish"
+image: images/profile.jpg
+about:
+  template: trestles
+  image-shape: round
+  image-width: 14em
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/manishvenu
+    - icon: controller
+      text: itch.io
+      href: https://amongnight.itch.io
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/manish-venumuddula
+    - icon: envelope
+      text: Email
+      href: mailto:manish.venumuddula@gmail.com
+    - icon: file-earmark-person
+      text: Résumé
+      href: files/resume.pdf
+listing:
+  - id: recent-posts
+    contents: ["blog/posts/*/index.qmd", "blog/posts/*/index.ipynb", blog/external-posts.yml]
+    type: table
+    max-items: 3
+    sort: "date desc"
+    fields: [date, title]
+    date-format: "MMM YYYY"
+    filter-ui: false
+    sort-ui: false
+---
+
+I'm a software engineer in Boulder, CO. In my free time I make **games** in Unity and build little **side projects**, usually about lakes, water, or making scientific data less annoying to look at.
+
+At my day job at [NCAR](https://ncar.ucar.edu/), I write tools that set up regional ocean simulations in the Community Earth System Model, so scientists spend less time fighting config files. Before that I worked on lake and ice research at the University of Michigan.
+
+- 🎮 [**Games**](games/index.qmd): things I've made in Unity
+- 🛠️ [**Projects**](projects/index.qmd): personal projects, research code, and work software
+- ✍️ [**Blog**](blog/index.qmd): notes on things that broke and how I fixed them
+
+### Latest posts
+
+::: {#recent-posts}
+:::

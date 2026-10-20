@@ -1,0 +1,8 @@
+# Blog posts that live on other sites. They show up as cards like normal posts,
+# and clicking one goes straight to the external page.
+- title: "Vine copulas, explained with a lake"
+  path: https://manishvenu.github.io/MonoCopula2024/how_the_model_works.html
+  description: "What a copula is, why Sklar's theorem matters, and how stacking 2D copulas into a vine lets us forecast Mono Lake's water levels while keeping every correlation intact."
+  date: 2024-08-13
+  image: ../images/vine-copula.png
+  categories: [Statistics, Lakes, Python]

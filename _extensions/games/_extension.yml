@@ -1,0 +1,6 @@
+title: Game embeds
+author: Manish Venumuddula
+version: 1.0.0
+contributes:
+  shortcodes:
+    - games.lua

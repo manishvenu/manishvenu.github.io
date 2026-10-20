@@ -1,0 +1,10 @@
+---
+title: "MLDjango"
+description: "A Django web app for a lake research project, plus a deploy guide for Earth scientists."
+date: 2024-06-20
+categories: [Personal, Web, Python]
+---
+
+The website for a Mono Lake research project, built with Django, along with documentation on how to run it and deploy it to AWS.
+
+[Docs](https://manishvenu.github.io/MLDjango/){.btn .btn-primary} [GitHub](https://github.com/manishvenu/MLDjango){.btn .btn-outline-primary} [Blog post](../blog/posts/2024-12-08-django-aws/index.qmd){.btn .btn-outline-secondary}
