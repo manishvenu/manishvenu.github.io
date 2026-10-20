@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Manish Venumuddula</title>
+<link>https://manishvenu.github.io/blog/</link>
+<atom:link href="https://manishvenu.github.io/blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>Games, side projects, and software for Earth system models.</description>
+<generator>quarto-1.10.19</generator>
+<lastBuildDate>Sun, 08 Dec 2024 07:00:00 GMT</lastBuildDate>
+<item>
+  <title>Deploying a Django website as a confused Earth science programmer</title>
+  <link>https://manishvenu.github.io/blog/posts/2024-12-08-django-aws/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>Deploying a Django website is hard, especially if you don’t know anything about linux, web servers, or front-end/back-end. In my case of setting up a website for a lake research project, it was impossible. Thankfully, leveraging a couple of very cool tutorials and taking shameless advantage of AWS free tier (which can then be transitioned to a free/cheap non-profit account cuz research is non-profit), we can deploy a Django website in HTTP! HTTPS - which has an extra S - has security, so you need to buy a domain (not free!) and get a free security certificate from something like Let’s Encrypt - a company!</p>
+<p>Here is an option to get the deployment working: <a href="https://manishvenu.github.io/MLDjango/manualdocs/deploy_to_ec2.html">Steps of Django Deployment on AWS</a>.</p>
+<p>I’d only use this tutorial if you’re a python coder who figured out Django, but knows nothing about how webservers (Apache2, NGINX) and linux servers work, which is like very common in earth science.</p>
+<p>Feel free to email me when things don’t work, it’s fun to figure out.</p>
+
+
+
+ ]]></description>
+  <category>Django</category>
+  <category>AWS</category>
+  <category>EC2</category>
+  <guid>https://manishvenu.github.io/blog/posts/2024-12-08-django-aws/</guid>
+  <pubDate>Sun, 08 Dec 2024 07:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Vine copulas, explained with a lake</title>
+  <link>https://manishvenu.github.io/</link>
+  <description>What a copula is, why Sklar&#39;s theorem matters, and how stacking 2D copulas into a vine lets us forecast Mono Lake&#39;s water levels while keeping every correlation intact.</description>
+  <category>Statistics</category>
+  <category>Lakes</category>
+  <category>Python</category>
+  <guid>https://manishvenu.github.io/</guid>
+  <pubDate>Tue, 13 Aug 2024 06:00:00 GMT</pubDate>
+  <media:content url="https://manishvenu.github.io/../images/vine-copula.png" medium="image" type="image/png"/>
+</item>
+</channel>
+</rss>
