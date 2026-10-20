@@ -30,7 +30,7 @@ quarto preview          # opens a browser that refreshes when you save
 
 ## Publishing
 
-Push to `master`. A GitHub Action builds the site and publishes it to the `gh-pages` branch.
+Push to `main`. A GitHub Action builds the site and publishes it to the `gh-pages` branch.
 
 If a post runs Python code, preview it locally first, then commit the `_freeze/` folder it creates. That way GitHub doesn't need your Python environment.
 

@@ -1,9 +1,9 @@
-# Rebuilds and publishes the site every time you push to master.
+# Rebuilds and publishes the site every time you push to main.
 # Python/notebook output is taken from _freeze/, so nothing is executed here.
 name: Publish site
 on:
   push:
-    branches: master
+    branches: main
   workflow_dispatch:
 
 permissions:
