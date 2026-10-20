@@ -49,13 +49,6 @@
     "text": "Click a .nc file in VS Code and see its header (ncdump -h) without opening a terminal.\nGitHub"
   },
   {
-    "objectID": "projects/visualcasegen.html",
-    "href": "projects/visualcasegen.html",
-    "title": "visualCaseGen",
-    "section": "",
-    "text": "visualCaseGen gives CESM users an interactive, constraint-solver-assisted way to configure experiments. It encodes the model’s configuration rules as SMT constraints, so invalid setups get caught before they run.\n\nAltuntas, A., Simpson, I. R., Bachman, S. D., Venumuddula, M., Levis, S., Dobbins, B., Sacks, W. J., & Danabasoglu, G. (2026). visualCaseGen: An SMT-based experiment configurator for Community Earth System Model. Journal of Open Source Software.\n\nPaper (JOSS) GitHub"
-  },
-  {
     "objectID": "projects/apostle-islands-ice.html",
     "href": "projects/apostle-islands-ice.html",
     "title": "Apostle Islands Ice Cover Model",
@@ -81,7 +74,7 @@
     "href": "projects/index.html",
     "title": "Projects",
     "section": "",
-    "text": "visualCaseGen\n\n\n\nWork\n\nSoftware\n\nPaper\n\n\n\nA GUI that uses constraint solvers to guide people through configuring CESM experiments.\n\n\n\n2026\n\n\n\n\n\n\n\n\n\n\n\n\n\nCrocoDash\n\n\n\nWork\n\nSoftware\n\nOcean\n\n\n\nPython package that sets up regional MOM6 ocean simulations inside CESM.\n\n\n\n2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nMono Lake Water Balance\n\n\n\nResearch\n\nPaper\n\nLakes\n\n\n\nHow much of Mono Lake’s water loss is diversions and how much is drought?\n\n\n\n2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nApostle Islands Ice Cover Model\n\n\n\nResearch\n\nPaper\n\nLakes\n\n\n\nCombining satellite, teleconnection, and in situ data to explain decades of coastal ice on Lake Superior.\n\n\n\n2024\n\n\n\n\n\n\n\n\n\n\n\nmanish’s fantastic dump\n\n\n\nPersonal\n\nTools\n\n\n\nVS Code extension that runs ncdump -h on NetCDF files right in the editor.\n\n\n\n2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonoCopula\n\n\n\nResearch\n\nLakes\n\nPython\n\n\n\nForecasting Mono Lake water levels by sampling thousands of possible futures with vine copulas.\n\n\n\n2024\n\n\n\n\n\n\n\n\n\n\n\nMLDjango\n\n\n\nPersonal\n\nWeb\n\nPython\n\n\n\nA Django web app for a lake research project, plus a deploy guide for Earth scientists.\n\n\n\n2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nGlobal Lake Hydrology Explorer\n\n\n\nPersonal\n\nLakes\n\nPython\n\n\n\nPick any lake on Earth and get a snapshot of its water balance.\n\n\n\n2023\n\n\n\n\n\n\nNo matching items"
+    "text": "CrocoDash\n\n\n\nWork\n\nSoftware\n\nOcean\n\n\n\nPython package that sets up regional MOM6 ocean simulations inside CESM.\n\n\n\n2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nMono Lake Water Balance\n\n\n\nResearch\n\nPaper\n\nLakes\n\n\n\nHow much of Mono Lake’s water loss is diversions and how much is drought?\n\n\n\n2025\n\n\n\n\n\n\n\n\n\n\n\n\n\nApostle Islands Ice Cover Model\n\n\n\nResearch\n\nPaper\n\nLakes\n\n\n\nCombining satellite, teleconnection, and in situ data to explain decades of coastal ice on Lake Superior.\n\n\n\n2024\n\n\n\n\n\n\n\n\n\n\n\nmanish’s fantastic dump\n\n\n\nPersonal\n\nTools\n\n\n\nVS Code extension that runs ncdump -h on NetCDF files right in the editor.\n\n\n\n2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nMonoCopula\n\n\n\nResearch\n\nLakes\n\nPython\n\n\n\nForecasting Mono Lake water levels by sampling thousands of possible futures with vine copulas.\n\n\n\n2024\n\n\n\n\n\n\n\n\n\n\n\nMLDjango\n\n\n\nPersonal\n\nWeb\n\nPython\n\n\n\nA Django web app for a lake research project, plus a deploy guide for Earth scientists.\n\n\n\n2024\n\n\n\n\n\n\n\n\n\n\n\n\n\nGlobal Lake Hydrology Explorer\n\n\n\nPersonal\n\nLakes\n\nPython\n\n\n\nPick any lake on Earth and get a snapshot of its water balance.\n\n\n\n2023\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "blog/posts/2024-12-08-django-aws/index.html",
