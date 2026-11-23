@@ -3,7 +3,6 @@ title: "CrocoDash"
 description: "Python package that sets up regional MOM6 ocean simulations inside CESM."
 date: 2025-10-12
 image: ../images/crocodash.png
-categories: [Work, Software, Ocean]
 ---
 
 CrocoDash is a Python package I develop under the [CROCODILE-CESM](https://github.com/CROCODILE-CESM) project at NCAR. It sets up regional MOM6 ocean simulations inside the Community Earth System Model, so researchers can build high-resolution regional configurations without managing the whole model infrastructure by hand.

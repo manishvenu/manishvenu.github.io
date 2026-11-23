@@ -1,14 +1,9 @@
 ---
 title: "Projects"
-subtitle: "Personal projects, research code, and software from work. Filter by tag on the right."
+# "listing" tells Quarto: find these files, and show each one as a card
+# using its title / description / date / image from its top block.
 listing:
-  contents: "*.qmd"
-  type: grid
-  grid-columns: 3
-  image-height: 180px
-  image-placeholder: ../images/placeholder.png
-  sort: "date desc"
-  categories: true
-  fields: [image, date, title, description, categories]
-  date-format: "YYYY"
+  contents: "*.qmd"      # every .qmd in this folder (this index file is skipped automatically)
+  type: grid             # cards in a grid. Other options: default (a list), table
+  sort: "date desc"      # newest first
 ---

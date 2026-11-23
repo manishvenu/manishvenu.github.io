@@ -1,20 +1,26 @@
 # Rebuilds and publishes the site every time you push to main.
-# Python/notebook output is taken from _freeze/, so nothing is executed here.
+# You can watch it run under the "Actions" tab on GitHub.
 name: Publish site
 on:
   push:
-    branches: main
-  workflow_dispatch:
+    branches: main        # run on every push to main
+  workflow_dispatch:      # also adds a "Run workflow" button on the Actions tab
 
 permissions:
-  contents: write
+  contents: write         # lets the job push the built site to the gh-pages branch
 
 jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
+      # 1. Download this repo onto GitHub's machine.
       - uses: actions/checkout@v4
+      # 2. Install Quarto. Keep this version the same as in environment.yml.
       - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.10.20
+      # 3. Run `quarto render`, then push _site/ to the gh-pages branch.
+      #    GitHub Pages serves whatever is on gh-pages.
       - uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages

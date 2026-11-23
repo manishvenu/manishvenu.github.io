@@ -1,0 +1,16 @@
+---
+title: "Sub-Merged Conflicts"
+description: "A co-op deep-sea adventure: keep the submarine alive, find the treasure."
+image: ../images/sub-merged-conflicts.png
+---
+
+![](../images/sub-merged-conflicts.png){width=80%}
+
+In this co-op deep-sea adventure game, you are part of a team of underwater explorers on a mission to find the treasure! Navigate through treacherous currents, encounter dangerous creatures, and use your teamwork skills to keep your submarine safe and strike gold!
+
+[Download on itch.io (Windows / macOS)](https://amongnight.itch.io/sub-merged-conflicts){.btn .btn-primary}
+
+<!--
+To make a game playable in the browser, paste an iframe (outside this comment).
+See "Make a game playable in the browser" in README.md.
+-->

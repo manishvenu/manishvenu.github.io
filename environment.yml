@@ -1,0 +1,13 @@
+# The mamba (conda) environment for building this website.
+#   mamba env create -f environment.yml     (once)
+#   mamba activate website                  (every time you work on the site)
+# If you change the Quarto version here, change it in .github/workflows/publish.yml too.
+name: website
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - quarto-cli==1.10.20   # Quarto itself (gives you the `quarto` command)
+      - jupyter               # only needed if a page runs Python code (see EXTENDING.md)

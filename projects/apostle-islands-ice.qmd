@@ -3,7 +3,6 @@ title: "Apostle Islands Ice Cover Model"
 description: "Combining satellite, teleconnection, and in situ data to explain decades of coastal ice on Lake Superior."
 date: 2024-12-04
 image: ../images/apostle-islands.jpg
-categories: [Research, Paper, Lakes]
 ---
 
 A statistical model of coastal ice cover around Lake Superior's Apostle Islands. It combines satellite ice extent, in situ observations, and climate teleconnections (like ENSO and the Arctic Oscillation) to separate out what drives ice trends and variability.

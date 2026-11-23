@@ -1,0 +1,15 @@
+---
+# COPY THIS FILE to write a post, e.g. blog/posts/2026-12-01-my-first-post.qmd
+# Files starting with "_" are ignored, so this example never shows up on the site.
+title: "My post title"
+description: "One sentence that shows under the title on the Blog page."
+date: 2026-12-01
+---
+
+Write in normal Markdown.
+
+## A heading
+
+A [link](https://quarto.org), **bold**, *italic*, and an image:
+
+![A caption](../../images/profile.jpg){width=200px}

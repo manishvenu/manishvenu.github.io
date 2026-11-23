@@ -3,7 +3,6 @@ title: "MonoCopula"
 description: "Forecasting Mono Lake water levels by sampling thousands of possible futures with vine copulas."
 date: 2024-08-13
 image: ../images/vine-copula.png
-categories: [Research, Lakes, Python]
 ---
 
 The Mono Lake Copula Forecasting Model learns how the parts of the lake's water balance move together, using vine copulas, then samples thousands of possible futures from that. The correlations are preserved, and the sample size isn't limited to the historical record.
