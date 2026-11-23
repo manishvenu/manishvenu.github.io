@@ -7,4 +7,6 @@ image: ../images/glhe.png
 
 A tool for visualizing lake data worldwide using global precipitation, evaporation, and runoff data. Choose a lake and get a snapshot of its water balance. It's built to be easy to extend, for watershed modeling or water resource management.
 
+![Great Salt Lake in GLHE: the lake outline on the map, then precipitation, evaporation and inflow time series.](../images/glhe-app.png)
+
 [Open the app](https://glhe.venumuddula.com){.btn .btn-primary} [GitHub](https://github.com/manishvenu/Global-Lake-Hydrology-Explorer){.btn .btn-outline-primary}
