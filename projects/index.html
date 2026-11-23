@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.19">
+<meta name="generator" content="quarto-1.10.20">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -45,14 +45,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-17888a1159294d3eb470f19f6f52f5a5.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-dbdeacc7e466cd8f6971c5d416328982.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-b092fb81baa89ed1b70fab26964c0fc2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-dbdeacc7e466cd8f6971c5d416328982.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-50eb5b89b0de81519140945548e2bba6.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -90,9 +86,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -140,177 +136,9 @@ window.Quarto = {
 };
 </script>
 
-<meta property="og:title" content="Projects – Manish Venumuddula">
-<meta property="og:description" content="Personal projects, research code, and software from work. Filter by tag on the right.">
-<meta property="og:image" content="https://manishvenu.github.io/images/crocodash.png">
-<meta property="og:site_name" content="Manish Venumuddula">
-<meta property="og:image:height" content="799">
-<meta property="og:image:width" content="800">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
-    const toggleBodyColorMode = (bsSheetEl) => {
-      const mode = bsSheetEl.getAttribute("data-mode");
-      const bodyEl = window.document.querySelector("body");
-      if (mode === "dark") {
-        bodyEl.classList.add("quarto-dark");
-        bodyEl.classList.remove("quarto-light");
-      } else {
-        bodyEl.classList.add("quarto-light");
-        bodyEl.classList.remove("quarto-dark");
-      }
-    }
-    const toggleBodyColorPrimary = () => {
-      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
-      if (bsSheetEl) {
-        toggleBodyColorMode(bsSheetEl);
-      }
-    }
-    const setColorSchemeToggle = (alternate) => {
-      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
-      for (let i=0; i < toggles.length; i++) {
-        const toggle = toggles[i];
-        if (toggle) {
-          if (alternate) {
-            toggle.classList.add("alternate");
-          } else {
-            toggle.classList.remove("alternate");
-          }
-        }
-      }
-    };
-    const toggleColorMode = (alternate) => {
-      // Switch the stylesheets
-      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
-      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
-      manageTransitions('#quarto-margin-sidebar .nav-link', false);
-      if (alternate) {
-        // note: dark is layered on light, we don't disable primary!
-        enableStylesheet(alternateStylesheets);
-        for (const sheetNode of alternateStylesheets) {
-          if (sheetNode.id === "quarto-bootstrap") {
-            toggleBodyColorMode(sheetNode);
-          }
-        }
-      } else {
-        disableStylesheet(alternateStylesheets);
-        enableStylesheet(primaryStylesheets)
-        toggleBodyColorPrimary();
-      }
-      manageTransitions('#quarto-margin-sidebar .nav-link', true);
-      // Switch the toggles
-      setColorSchemeToggle(alternate)
-      // Hack to workaround the fact that safari doesn't
-      // properly recolor the scrollbar when toggling (#1455)
-      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
-        manageTransitions("body", false);
-        window.scrollTo(0, 1);
-        setTimeout(() => {
-          window.scrollTo(0, 0);
-          manageTransitions("body", true);
-        }, 40);
-      }
-    }
-    const disableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        stylesheet.rel = 'disabled-stylesheet';
-      }
-    }
-    const enableStylesheet = (stylesheets) => {
-      for (let i=0; i < stylesheets.length; i++) {
-        const stylesheet = stylesheets[i];
-        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
-          stylesheet.rel = 'stylesheet';
-        }
-      }
-    }
-    const manageTransitions = (selector, allowTransitions) => {
-      const els = window.document.querySelectorAll(selector);
-      for (let i=0; i < els.length; i++) {
-        const el = els[i];
-        if (allowTransitions) {
-          el.classList.remove('notransition');
-        } else {
-          el.classList.add('notransition');
-        }
-      }
-    }
-    const isFileUrl = () => {
-      return window.location.protocol === 'file:';
-    }
-    const hasAlternateSentinel = () => {
-      let styleSentinel = getColorSchemeSentinel();
-      if (styleSentinel !== null) {
-        return styleSentinel === "alternate";
-      } else {
-        return false;
-      }
-    }
-    const setStyleSentinel = (alternate) => {
-      const value = alternate ? "alternate" : "default";
-      if (!isFileUrl()) {
-        window.localStorage.setItem("quarto-color-scheme", value);
-      } else {
-        localAlternateSentinel = value;
-      }
-    }
-    const getColorSchemeSentinel = () => {
-      if (!isFileUrl()) {
-        const storageValue = window.localStorage.getItem("quarto-color-scheme");
-        return storageValue != null ? storageValue : localAlternateSentinel;
-      } else {
-        return localAlternateSentinel;
-      }
-    }
-    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
-      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
-      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
-      let newTheme = '';
-      if(authorPrefersDark) {
-        newTheme = isAlternate ? baseTheme : alternateTheme;
-      } else {
-        newTheme = isAlternate ? alternateTheme : baseTheme;
-      }
-      const changeGiscusTheme = () => {
-        // From: https://github.com/giscus/giscus/issues/336
-        const sendMessage = (message) => {
-          const iframe = document.querySelector('iframe.giscus-frame');
-          if (!iframe) return;
-          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
-        }
-        sendMessage({
-          setConfig: {
-            theme: newTheme
-          }
-        });
-      }
-      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
-      if (isGiscussLoaded) {
-        changeGiscusTheme();
-      }
-    };
-    const authorPrefersDark = false;
-    const darkModeDefault = authorPrefersDark;
-      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
-    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
-    // Dark / light mode switch
-    window.quartoToggleColorScheme = () => {
-      // Read the current dark / light value
-      let toAlternate = !hasAlternateSentinel();
-      toggleColorMode(toAlternate);
-      setStyleSentinel(toAlternate);
-      toggleGiscusIfUsed(toAlternate, darkModeDefault);
-      window.dispatchEvent(new Event('resize'));
-    };
-    // Switch to dark mode if need be
-    if (hasAlternateSentinel()) {
-      toggleColorMode(true);
-    } else {
-      toggleColorMode(false);
-    }
-  </script>
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -332,12 +160,12 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../games/index.html"> 
-<span class="menu-text">Games</span></a>
-  </li>  
-  <li class="nav-item">
     <a class="nav-link active" href="../projects/index.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../games/index.html"> 
+<span class="menu-text">Games</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../blog/index.html"> 
@@ -346,29 +174,18 @@ window.Quarto = {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/manishvenu"> <i class="bi bi-github" role="img" aria-label="GitHub">
+    <a class="nav-link" href="https://github.com/manishvenu"> <i class="bi bi-github" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://amongnight.itch.io"> <i class="bi bi-controller" role="img" aria-label="itch.io">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/manish-venumuddula"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="../blog/index.xml"> <i class="bi bi-rss" role="img" aria-label="RSS">
+    <a class="nav-link" href="https://www.linkedin.com/in/manish-venumuddula"> <i class="bi bi-linkedin" role="img">
 </i> 
 <span class="menu-text"></span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -377,16 +194,13 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(7)</span></div><div class="category" data-category="TGFrZXM=">Lakes <span class="quarto-category-count">(4)</span></div><div class="category" data-category="T2NlYW4=">Ocean <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGFwZXI=">Paper <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UGVyc29uYWw=">Personal <span class="quarto-category-count">(3)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(3)</span></div><div class="category" data-category="UmVzZWFyY2g=">Research <span class="quarto-category-count">(3)</span></div><div class="category" data-category="U29mdHdhcmU=">Software <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VG9vbHM=">Tools <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V2Vi">Web <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V29yaw==">Work <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
-
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Projects</h1>
-<p class="subtitle lead">Personal projects, research code, and software from work. Filter by tag on the right.</p>
 </div>
 
 
@@ -409,205 +223,165 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="V29yayUyQ1NvZnR3YXJlJTJDT2NlYW4=" data-listing-date-sort="1760227200000" data-listing-file-modified-sort="1792512836461" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
+<div class="g-col-1" data-index="0" data-listing-date-sort="1760227200000" data-listing-file-modified-sort="1795470785042" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="47">
 <a href="../projects/crocodash.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../images/crocodash.png" class="thumbnail-image card-img" style="height: 180px;">
+<img loading="lazy" src="../images/crocodash.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 CrocoDash
 </h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('V29yaw=='); return false;">Work</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('U29mdHdhcmU='); return false;">Software</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('T2NlYW4='); return false;">Ocean</div>
-
-</div>
 <div class="card-text listing-description delink">
 <p>Python package that sets up regional MOM6 ocean simulations inside CESM.</p>
 </div>
-<div class="card-attribution card-text-small end">
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
 <div class="listing-date">
-2025
+Oct 12, 2025
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="UmVzZWFyY2glMkNQYXBlciUyQ0xha2Vz" data-listing-date-sort="1759276800000" data-listing-file-modified-sort="1792512836461" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
+<div class="g-col-1" data-index="1" data-listing-date-sort="1759276800000" data-listing-file-modified-sort="1795470785042" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="60">
 <a href="../projects/mono-lake-water-balance.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../images/mono-lake.jpg" class="thumbnail-image card-img" style="height: 180px;">
+<img loading="lazy" src="../images/mono-lake.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Mono Lake Water Balance
 </h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UmVzZWFyY2g='); return false;">Research</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGFwZXI='); return false;">Paper</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGFrZXM='); return false;">Lakes</div>
-
-</div>
 <div class="card-text listing-description delink">
 <p>How much of Mono Lake’s water loss is diversions and how much is drought?</p>
 </div>
-<div class="card-attribution card-text-small end">
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
 <div class="listing-date">
-2025
+Oct 1, 2025
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="UmVzZWFyY2glMkNQYXBlciUyQ0xha2Vz" data-listing-date-sort="1733270400000" data-listing-file-modified-sort="1792512836459" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
+<div class="g-col-1" data-index="2" data-listing-date-sort="1733270400000" data-listing-file-modified-sort="1795470785040" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
 <a href="../projects/apostle-islands-ice.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../images/apostle-islands.jpg" class="thumbnail-image card-img" style="height: 180px;">
+<img loading="lazy" src="../images/apostle-islands.jpg" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Apostle Islands Ice Cover Model
 </h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UmVzZWFyY2g='); return false;">Research</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGFwZXI='); return false;">Paper</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGFrZXM='); return false;">Lakes</div>
-
-</div>
 <div class="card-text listing-description delink">
 <p>Combining satellite, teleconnection, and in situ data to explain decades of coastal ice on Lake Superior.</p>
 </div>
-<div class="card-attribution card-text-small end">
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
 <div class="listing-date">
-2024
+Dec 4, 2024
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="3" data-categories="UGVyc29uYWwlMkNUb29scw==" data-listing-date-sort="1730937600000" data-listing-file-modified-sort="1792512836461" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
+<div class="g-col-1" data-index="3" data-listing-date-sort="1730937600000" data-listing-file-modified-sort="1795470785042" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="18">
 <a href="../projects/ncdump-vscode.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="../images/placeholder.png" style="height: 180px;"  class="thumbnail-image card-img"/></p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 manish’s fantastic dump
 </h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGVyc29uYWw='); return false;">Personal</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('VG9vbHM='); return false;">Tools</div>
-
-</div>
 <div class="card-text listing-description delink">
 <p>VS Code extension that runs ncdump -h on NetCDF files right in the editor.</p>
 </div>
-<div class="card-attribution card-text-small end">
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
 <div class="listing-date">
-2024
+Nov 7, 2024
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="4" data-categories="UmVzZWFyY2glMkNMYWtlcyUyQ1B5dGhvbg==" data-listing-date-sort="1723507200000" data-listing-file-modified-sort="1792512836461" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
+<div class="g-col-1" data-index="4" data-listing-date-sort="1723507200000" data-listing-file-modified-sort="1795470785042" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
 <a href="../projects/monocopula.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../images/vine-copula.png" class="thumbnail-image card-img" style="height: 180px;">
+<img loading="lazy" src="../images/vine-copula.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 MonoCopula
 </h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UmVzZWFyY2g='); return false;">Research</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGFrZXM='); return false;">Lakes</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
-
-</div>
 <div class="card-text listing-description delink">
 <p>Forecasting Mono Lake water levels by sampling thousands of possible futures with vine copulas.</p>
 </div>
-<div class="card-attribution card-text-small end">
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
 <div class="listing-date">
-2024
+Aug 13, 2024
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="5" data-categories="UGVyc29uYWwlMkNXZWIlMkNQeXRob24=" data-listing-date-sort="1718841600000" data-listing-file-modified-sort="1792512836461" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="30">
+<div class="g-col-1" data-index="5" data-listing-date-sort="1718841600000" data-listing-file-modified-sort="1795470785042" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="27">
 <a href="../projects/mldjango.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top"><img loading='lazy' src="../images/placeholder.png" style="height: 180px;"  class="thumbnail-image card-img"/></p>
+<div class="listing-item-img-placeholder card-img-top" style="height: 150px;">&nbsp;</div>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 MLDjango
 </h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGVyc29uYWw='); return false;">Personal</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('V2Vi'); return false;">Web</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
-
-</div>
 <div class="card-text listing-description delink">
 <p>A Django web app for a lake research project, plus a deploy guide for Earth scientists.</p>
 </div>
-<div class="card-attribution card-text-small end">
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
 <div class="listing-date">
-2024
+Jun 20, 2024
 </div>
 </div>
 </div>
 </div></a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="UGVyc29uYWwlMkNMYWtlcyUyQ1B5dGhvbg==" data-listing-date-sort="1682380800000" data-listing-file-modified-sort="1792512836461" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="40">
+<div class="g-col-1" data-index="6" data-listing-date-sort="1682380800000" data-listing-file-modified-sort="1795470785042" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="40">
 <a href="../projects/global-lake-hydrology-explorer.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
-<img loading="lazy" src="../images/glhe.png" class="thumbnail-image card-img" style="height: 180px;">
+<img loading="lazy" src="../images/glhe.png" class="thumbnail-image card-img" style="height: 150px;">
 </p>
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
 Global Lake Hydrology Explorer
 </h5>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('UGVyc29uYWw='); return false;">Personal</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('TGFrZXM='); return false;">Lakes</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
-
-</div>
 <div class="card-text listing-description delink">
 <p>Pick any lake on Earth and get a snapshot of its water balance.</p>
 </div>
-<div class="card-attribution card-text-small end">
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+
+</div>
 <div class="listing-date">
-2023
+Apr 25, 2023
 </div>
 </div>
 </div>
@@ -618,19 +392,6 @@ Global Lake Hydrology Explorer
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    // Ensure there is a toggle, if there isn't float one in the top right
-    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
-      const a = window.document.createElement('a');
-      a.classList.add('top-right');
-      a.classList.add('quarto-color-scheme-toggle');
-      a.href = "";
-      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
-      const i = window.document.createElement("i");
-      i.classList.add('bi');
-      a.appendChild(i);
-      window.document.body.appendChild(a);
-    }
-    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -702,7 +463,7 @@ Global Lake Hydrology Explorer
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/manishvenu\.github\.io");
+        var filterRegex = new RegExp("https:\/\/manish\.venumuddula\.com");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -1030,19 +791,6 @@ Global Lake Hydrology Explorer
   });
   </script>
 </div> <!-- /content -->
-<footer class="footer">
-  <div class="nav-footer">
-    <div class="nav-footer-left">
-      &nbsp;
-    </div>   
-    <div class="nav-footer-center">
-<p>Made with <a href="https://quarto.org">Quarto</a> · <a href="../files/resume.pdf">Résumé</a></p>
-</div>
-    <div class="nav-footer-right">
-      &nbsp;
-    </div>
-  </div>
-</footer>
 
 
 
