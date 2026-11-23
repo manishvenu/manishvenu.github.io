@@ -14,6 +14,5 @@ At my day job at [NCAR](https://ncar.ucar.edu/), I write tools that set up regio
 
 **Find me:**
 [GitHub](https://github.com/manishvenu) ·
-[itch.io](https://amongnight.itch.io) ·
 [LinkedIn](https://www.linkedin.com/in/manish-venumuddula) ·
 [Email](mailto:manish.venumuddula@gmail.com)
