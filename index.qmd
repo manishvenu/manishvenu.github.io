@@ -5,8 +5,13 @@ title: "Hi, I'm Manish"
 ![](images/profile.jpg){width=180px style="border-radius:50%; float:right; margin:0 0 1em 1.5em;"}
 
 hi
+ 
 
-OH HI
+hi hi
+
+hi?
+
+hi
 
 - [**Projects**](projects/index.qmd): personal projects, research code, and work software
 - [**Games**](games/index.qmd): GAMES
