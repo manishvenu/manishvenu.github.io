@@ -8,7 +8,7 @@ hi
 
 - [**Projects**](projects/index.qmd): personal projects, research code, and work software
 - [**Games**](games/index.qmd): GAMES
-- [**Blog**](blog/index.qmd): WRITE
+- [**Blog**](blog/index.qmd)
 
 **Find me:**
 [GitHub](https://github.com/manishvenu) ·
