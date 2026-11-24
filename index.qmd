@@ -6,7 +6,7 @@ title: "Hi, I'm Manish"
 
 hi
 
-- [**Projects**](projects/index.qmd): personal projects, research code, and work software
+- [**Projects**](projects/index.qmd)
 - [**Games**](games/index.qmd): GAMES
 - [**Blog**](blog/index.qmd)
 
